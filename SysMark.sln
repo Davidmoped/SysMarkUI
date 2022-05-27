@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaSysMark", "LibreriaSysMark\LibreriaSysMark.csproj", "{C2C01EC9-BCC6-4370-A596-DEC599AC25D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysMarkUI", "SysMarkUI\SysMarkUI.csproj", "{23C04289-A0F4-4E36-9452-83D671D6E066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2C01EC9-BCC6-4370-A596-DEC599AC25D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C01EC9-BCC6-4370-A596-DEC599AC25D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C01EC9-BCC6-4370-A596-DEC599AC25D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C01EC9-BCC6-4370-A596-DEC599AC25D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C04289-A0F4-4E36-9452-83D671D6E066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C04289-A0F4-4E36-9452-83D671D6E066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C04289-A0F4-4E36-9452-83D671D6E066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C04289-A0F4-4E36-9452-83D671D6E066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE274E0D-89BB-425C-9533-469B1625E9AD}
+	EndGlobalSection
+EndGlobal

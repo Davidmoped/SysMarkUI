@@ -1,0 +1,45 @@
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.AgregarEmpleados.resources
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.Properties.Resources.resources
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\SysMarkUI.exe.config
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\SysMarkUI.exe
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\SysMarkUI.pdb
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\LibreriaSysMark.dll
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\LibreriaSysMark.pdb
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\Dapper.xml
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.CopyComplete
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.exe
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.pdb
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.Inicio.resources
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.AgregarCliente.resources
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.Busqueda.resources
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.EditarCliente.resources
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.BusquedaEmpleado.resources
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.EditarEmpleados.resources
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\SysMarkUI.exe.config
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\SysMarkUI.exe
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\SysMarkUI.pdb
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\LibreriaSysMark.dll
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\LibreriaSysMark.pdb
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\bin\Debug\Dapper.xml
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.AgregarEmpleados.resources
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.BusquedaEmpleado.resources
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.EditarEmpleados.resources
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.Inicio.resources
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.AgregarCliente.resources
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.Busqueda.resources
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMark.EditarCliente.resources
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.Properties.Resources.resources
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.csproj.CopyComplete
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.exe
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.pdb
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\SysMarkUI\obj\Debug\SysMarkUI.VistaEmpleado.resources

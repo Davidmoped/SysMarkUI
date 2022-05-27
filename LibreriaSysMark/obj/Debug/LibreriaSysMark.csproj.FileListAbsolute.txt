@@ -1,0 +1,18 @@
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\LibreriaSysMark\bin\Debug\LibreriaSysMark.dll
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\LibreriaSysMark\bin\Debug\LibreriaSysMark.pdb
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\LibreriaSysMark\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\LibreriaSysMark\bin\Debug\Dapper.xml
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.csproj.CopyComplete
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.dll
+C:\Users\Administrator\Desktop\BACKUP\BACKUP DISCO DE SERVIDOR\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.pdb
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\LibreriaSysMark\bin\Debug\LibreriaSysMark.dll
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\LibreriaSysMark\bin\Debug\LibreriaSysMark.pdb
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\LibreriaSysMark\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\LibreriaSysMark\bin\Debug\Dapper.xml
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.csproj.CopyComplete
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.dll
+C:\Users\Administrator\Desktop\BACKUP\CRUCIAL BX100\SysMark\Repos\SysMark\LibreriaSysMark\obj\Debug\LibreriaSysMark.pdb
