@@ -16,6 +16,8 @@ namespace SysMark
 
         private List<ModeloEmpleado> comboEmpleados = ConfigGlobalConexion.Conexion.CargaEmpleados();
 
+        private List<ModeloProyecto> comboProyecto = ConfigGlobalConexion.Conexion.CargaProyectos();
+
         private List<string> mandarCorreo = ConfigGlobalConexion.Conexion.CargaCorreos();
 
         public AgregarCliente()
@@ -24,6 +26,8 @@ namespace SysMark
             cargaCombo();
             habilitarAgendaLlamada();
             txtempresa.Select();
+            dtProximaLlamada.Value = DateTime.Now;
+            FechaContacto.Value = DateTime.Now;
         }
 
         private void habilitarAgendaLlamada()
@@ -48,6 +52,9 @@ namespace SysMark
 
             cmbingresado.DataSource = comboEmpleados;
             cmbingresado.DisplayMember = "TodoElNombre";
+
+            cmbclientede.DataSource = comboProyecto;
+            cmbclientede.DisplayMember = "Descripcion";
          
 
         }

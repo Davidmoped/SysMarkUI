@@ -19,5 +19,7 @@ namespace LibreriaSysMark.Conexiones
 
      List<string> CargaCorreos();
 
+     List<ModeloProyecto> CargaProyectos();
+
     }
 }

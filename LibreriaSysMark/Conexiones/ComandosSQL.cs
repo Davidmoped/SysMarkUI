@@ -20,7 +20,7 @@ namespace LibreriaSysMark.Conexiones
         //Conexion a SQL para "registrar empleados" a la base de datos utilizando el ORM Dapper
         public ModeloEmpleado CrearEmpleado(ModeloEmpleado modelo)
         {
-                                                                                    //ConfigGlobalConexion tiene la cadena string de la conexion de la bd
+            //ConfigGlobalConexion tiene la cadena string de la conexion de la bd
             using (IDbConnection conexion = new System.Data.SqlClient.SqlConnection(ConfigGlobalConexion.StringConexion(conexionDB)))
             {
                 //Parametros de Dapper 
@@ -78,11 +78,13 @@ namespace LibreriaSysMark.Conexiones
         }
 
         //Funcion que carga a una lista de objetos "string" para ser utilizados en la carga de un combobox
-        public List<string> CargaCorreos() {
-        
+        public List<string> CargaCorreos()
+        {
+
             List<string> salidaCorreos = new List<string>();
 
-            using (IDbConnection conexion = new System.Data.SqlClient.SqlConnection(ConfigGlobalConexion.StringConexion(conexionDB))) {
+            using (IDbConnection conexion = new System.Data.SqlClient.SqlConnection(ConfigGlobalConexion.StringConexion(conexionDB)))
+            {
 
                 salidaCorreos = conexion.Query<string>("dbo.traeTodosLosCorreosEmpleadoActivo").ToList();
 
@@ -91,5 +93,23 @@ namespace LibreriaSysMark.Conexiones
             return salidaCorreos;
 
         }
+
+
+        public List<ModeloProyecto> CargaProyectos()
+        {
+
+            List<ModeloProyecto> salidaProyecto = new List<ModeloProyecto>();
+
+            using (IDbConnection conexion = new System.Data.SqlClient.SqlConnection(ConfigGlobalConexion.StringConexion(conexionDB)))
+            {
+
+                salidaProyecto = conexion.Query<ModeloProyecto>("dbo.TraeTodosLosProyectos").ToList();
+
+            }
+
+            return salidaProyecto;
+
+        }
     }
+
 }

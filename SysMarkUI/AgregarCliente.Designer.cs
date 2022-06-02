@@ -491,10 +491,6 @@
             // 
             this.cmbclientede.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbclientede.FormattingEnabled = true;
-            this.cmbclientede.Items.AddRange(new object[] {
-            "RDMS",
-            "Epicor ",
-            "Otros Partners\t"});
             this.cmbclientede.Location = new System.Drawing.Point(142, 90);
             this.cmbclientede.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbclientede.Name = "cmbclientede";
@@ -697,7 +693,7 @@
             this.dtProximaLlamada.Name = "dtProximaLlamada";
             this.dtProximaLlamada.Size = new System.Drawing.Size(226, 26);
             this.dtProximaLlamada.TabIndex = 24;
-            this.dtProximaLlamada.Value = new System.DateTime(2022, 5, 13, 0, 0, 0, 0);
+            this.dtProximaLlamada.Value = new System.DateTime(2022, 6, 1, 0, 0, 0, 0);
             // 
             // FechaContacto
             // 
@@ -706,7 +702,7 @@
             this.FechaContacto.Name = "FechaContacto";
             this.FechaContacto.Size = new System.Drawing.Size(280, 26);
             this.FechaContacto.TabIndex = 15;
-            this.FechaContacto.Value = new System.DateTime(2022, 5, 13, 11, 14, 38, 0);
+            this.FechaContacto.Value = new System.DateTime(2022, 6, 1, 0, 0, 0, 0);
             // 
             // label25
             // 

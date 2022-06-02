@@ -15,6 +15,8 @@ namespace SysMark
 
         private List<ModeloEmpleado> comboEmpleados = ConfigGlobalConexion.Conexion.CargaEmpleados();
 
+        private List<ModeloProyecto> comboProyecto = ConfigGlobalConexion.Conexion.CargaProyectos();
+
         private List<string> mandarCorreo = ConfigGlobalConexion.Conexion.CargaCorreos();
 
         int IDEmpresa = 0;
@@ -352,6 +354,9 @@ namespace SysMark
             cmbingresado.DataSource = comboEmpleados;
             cmbingresado.DisplayMember = "TodoElNombre";
 
+            cmbclientede.DataSource = comboProyecto;
+            cmbclientede.DisplayMember = "Descripcion";
+
         }
 
 
@@ -363,7 +368,8 @@ namespace SysMark
             cargaCombo();
             habilitarAgendaLlamada();
             txtempresa.Select();
-
+            fechacontacto.Value = DateTime.Now;
+            dtProximaLlamada.Value = DateTime.Now;
         }
 
 
@@ -501,6 +507,7 @@ namespace SysMark
 
             //Metodo para borrar los registros
 
+            //Inicio de conexion a BD con el archivo App Config
             string ConexionDB = ConfigurationManager.AppSettings["Conexion"];
 
             DialogResult mensaje = MessageBox.Show("Esta seguro de que quiere eliminar la informacion?",
@@ -546,7 +553,7 @@ namespace SysMark
         }
         public void Limpiar()
         {
-
+            //Funcion para limpiar todos los campos
             txtempresa.Clear();
 
             txtpweb.Clear();
@@ -683,6 +690,19 @@ namespace SysMark
 
             habilitarAgendaLlamada();
 
+        }
+
+        private void BtnNuevo_Click_1(object sender, EventArgs e)
+        {
+            DialogResult mensaje = MessageBox.Show("¿Limpiar los campos?",
+                "Aviso de confirmación", MessageBoxButtons.YesNoCancel);
+
+            if (mensaje == DialogResult.Yes) {
+
+                Limpiar();
+
+            }
+          
         }
     }
 

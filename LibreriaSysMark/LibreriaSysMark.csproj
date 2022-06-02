@@ -50,6 +50,7 @@
     <Compile Include="ConfigGlobalConexion.cs" />
     <Compile Include="Modelos\ModeloEmpleado.cs" />
     <Compile Include="Modelos\ModeloEstatus.cs" />
+    <Compile Include="Modelos\ModeloProyecto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -95,6 +95,7 @@
             this.label27 = new System.Windows.Forms.Label();
             this.cmbingresado = new System.Windows.Forms.ComboBox();
             this.label26 = new System.Windows.Forms.Label();
+            this.BtnNuevo = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.BoxDatosSecundarios.SuspendLayout();
             this.BoxDatosPrincipales.SuspendLayout();
@@ -772,7 +773,7 @@
             this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscar.Location = new System.Drawing.Point(731, 18);
+            this.btnBuscar.Location = new System.Drawing.Point(559, 19);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(147, 46);
@@ -820,10 +821,6 @@
             this.cmbclientede.Enabled = false;
             this.cmbclientede.FormattingEnabled = true;
             this.cmbclientede.ItemHeight = 20;
-            this.cmbclientede.Items.AddRange(new object[] {
-            "RDMS",
-            "Epicor ",
-            "Otros Partners"});
             this.cmbclientede.Location = new System.Drawing.Point(134, 100);
             this.cmbclientede.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbclientede.Name = "cmbclientede";
@@ -846,9 +843,6 @@
             this.cmbingresado.Enabled = false;
             this.cmbingresado.FormattingEnabled = true;
             this.cmbingresado.ItemHeight = 20;
-            this.cmbingresado.Items.AddRange(new object[] {
-            "Lic. Claudia Oaxaca",
-            "Veronica Almora"});
             this.cmbingresado.Location = new System.Drawing.Point(136, 47);
             this.cmbingresado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbingresado.Name = "cmbingresado";
@@ -865,11 +859,29 @@
             this.label26.TabIndex = 0;
             this.label26.Text = "Ingresado Por:";
             // 
+            // BtnNuevo
+            // 
+            this.BtnNuevo.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtnNuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnNuevo.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNuevo.Image = ((System.Drawing.Image)(resources.GetObject("BtnNuevo.Image")));
+            this.BtnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnNuevo.Location = new System.Drawing.Point(714, 19);
+            this.BtnNuevo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnNuevo.Name = "BtnNuevo";
+            this.BtnNuevo.Size = new System.Drawing.Size(185, 45);
+            this.BtnNuevo.TabIndex = 54;
+            this.BtnNuevo.Text = "Limpiar pantalla";
+            this.BtnNuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnNuevo.UseVisualStyleBackColor = false;
+            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click_1);
+            // 
             // EditarCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1118, 902);
+            this.Controls.Add(this.BtnNuevo);
             this.Controls.Add(this.BoxCliente);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBuscar);
@@ -964,5 +976,6 @@
         private System.Windows.Forms.CheckBox chbAgendarLlamada;
         private System.Windows.Forms.DateTimePicker dtProximaLlamada;
         private System.Windows.Forms.TextBox txtmail2;
+        private System.Windows.Forms.Button BtnNuevo;
     }
 }
