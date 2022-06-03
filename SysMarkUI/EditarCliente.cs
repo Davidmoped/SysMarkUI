@@ -12,11 +12,12 @@ namespace SysMark
 {
     public partial class EditarCliente : Form
     {
-
+        //Carga de variable que contiene todos los valores para los combobox
         private List<ModeloEmpleado> comboEmpleados = ConfigGlobalConexion.Conexion.CargaEmpleados();
 
         private List<ModeloProyecto> comboProyecto = ConfigGlobalConexion.Conexion.CargaProyectos();
 
+        //Lista que contiene todos los correos de empleados registrados a marketing
         private List<string> mandarCorreo = ConfigGlobalConexion.Conexion.CargaCorreos();
 
         int IDEmpresa = 0;
@@ -180,7 +181,7 @@ namespace SysMark
         public void crearJunta(string Asunto, string Ubicacion, DateTime FechaDeInicio, string Mensaje,
           DateTime FechaFinDeCita, int Recordatorio)
         {
-
+            //Creacion de un objeto cita en Outlook, mas inforacion en la seccion de AgregarCliente.cs
             Outlook.Application outlookApp = new Outlook.Application();
 
             Outlook.AppointmentItem junta = null;
@@ -232,12 +233,13 @@ namespace SysMark
 
         private void llenarCampos()
         {
-            
+            //Ventana emergente con los registros de clientes de marketing
             Busqueda frm = new Busqueda();
             
             DialogResult res = frm.ShowDialog();
 
-
+            //Si se selecciono un registro, se activan los campos dle formulario y se pasan los campos
+            //de cada celda en el datagridview de la forma Busqueda.cs por medio de un arreglo
             if (res == DialogResult.OK)
             {
 
@@ -395,6 +397,7 @@ namespace SysMark
                     using (SqlCommand cmd = new SqlCommand("dbo.modificarMarketing", conexion))
                     {
 
+
                         cmd.CommandType = CommandType.StoredProcedure;
 
                         cmd.Parameters.AddWithValue("@Empresa", txtempresa.Text);
@@ -502,6 +505,7 @@ namespace SysMark
             
         }
 
+        //Boton eliminar Registro
         private void button1_Click(object sender, EventArgs e)
         {
 

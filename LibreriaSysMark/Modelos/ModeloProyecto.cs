@@ -13,6 +13,7 @@ namespace LibreriaSysMark.Modelos
 
         public string Descripcion { get; set; }
 
+        //Constructor vacio requerido para cargar la informacion al comboBox
         public ModeloProyecto() {
 
         }

@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace LibreriaSysMark.Conexiones
 {
-    //Clase de interfaz que determina la sintaxis a usar cuando referencias una de estas clases
+    //Clase de interfaces que determina la manera de usar y la sintaxis cuando referencias una de estas clases
+    //Necesarias para poder utilizar los getters y setters para asignar o devolver valores de los modelos
     public interface DataConexion
     {
 

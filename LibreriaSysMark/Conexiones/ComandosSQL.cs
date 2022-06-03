@@ -31,6 +31,7 @@ namespace LibreriaSysMark.Conexiones
                 m.Add("@correoElectronico", modelo.CorreoElectronico);
                 m.Add("@IdEmpleado", dbType: DbType.Int32, direction: ParameterDirection.Output);
 
+                //Stored procedure para registrar empleados mas informacion en el Diccionario de Datos
                 conexion.Execute("dbo.registrarEmpleado", m, commandType: CommandType.StoredProcedure);
 
                 modelo.IdEmpleado = m.Get<int>("IdEmpleado");
@@ -46,6 +47,8 @@ namespace LibreriaSysMark.Conexiones
         public List<ModeloEmpleado> CargaEmpleados()
         {
 
+            //Objeto Modelo Empleado que almacena en una lista todos los empleados para luego cargarse
+            //a un combobox
             List<ModeloEmpleado> salidaComboBox = new List<ModeloEmpleado>();
 
             using (IDbConnection conexion = new System.Data.SqlClient.SqlConnection(ConfigGlobalConexion.StringConexion(conexionDB)))

@@ -14,10 +14,13 @@ namespace SysMark
     public partial class AgregarCliente : Form
     {
 
+        //Carga de informacion a la base de datos para ser implementado al combobox correspondiente
+
         private List<ModeloEmpleado> comboEmpleados = ConfigGlobalConexion.Conexion.CargaEmpleados();
 
         private List<ModeloProyecto> comboProyecto = ConfigGlobalConexion.Conexion.CargaProyectos();
 
+        //Lista que contiene todos los correos delos empleados registrados en Marketing
         private List<string> mandarCorreo = ConfigGlobalConexion.Conexion.CargaCorreos();
 
         public AgregarCliente()
@@ -32,7 +35,7 @@ namespace SysMark
 
         private void habilitarAgendaLlamada()
         {
-
+            //Funcion que deshabilita el control de fecha para agendar una llamada
             if (chbAgendarLlamada.Checked == true)
             {
 
@@ -50,6 +53,7 @@ namespace SysMark
 
         private void cargaCombo() {
 
+            //Llenado de los combobox desde la base de datos
             cmbingresado.DataSource = comboEmpleados;
             cmbingresado.DisplayMember = "TodoElNombre";
 
@@ -61,6 +65,7 @@ namespace SysMark
 
         public void soloNumerosTextBox(KeyPressEventArgs e)
         {
+            //Funcion que deshabilita en los campos de celular y telefono ingresar letras
             if (char.IsDigit(e.KeyChar)) { e.Handled = false; } //permite numeros
 
             if (char.IsLetter(e.KeyChar)) { e.Handled = true; } //NO permite letras
@@ -70,16 +75,21 @@ namespace SysMark
         public void crearJunta(string Asunto, string Ubicacion, DateTime FechaDeInicio, string Mensaje,
             DateTime FechaFinDeCita, int Recordatorio) {
 
+
+            //Creacion de una instancia de la libreria Microsoft Outlook Interlop
             Outlook.Application outlookApp = new Outlook.Application();
 
+            //Declaracion de los objetos Outlook para mandar un recordatorio de junta
             Outlook.AppointmentItem junta = null;
 
             Outlook.Recipients recipients = null;
 
             Outlook.Recipient recipient = null;
 
+            //Creacion de un objeto Cita de Outlook
             junta = outlookApp.CreateItem(Outlook.OlItemType.olAppointmentItem);
 
+            //Declaracion de los parametros de la funcion que serviran como la estructura y cuerpo de la Cita
             junta.Subject = Asunto;
 
             junta.Location = Ubicacion;
@@ -92,6 +102,8 @@ namespace SysMark
 
             recipients = junta.Recipients;
 
+            //Bucle de la lista de correos de empleados para ser agregados como miembros al citatorio de 
+            //la llamada 
             foreach (string correo in mandarCorreo) {
 
                 recipient = recipients.Add(correo);
@@ -101,15 +113,17 @@ namespace SysMark
             }
 
             junta.BusyStatus = Outlook.OlBusyStatus.olBusy;
-            //Para que en el calendario salga el estado de ocupado
+            //Parametro para que en el calendario salga el estado de ocupado la cita
 
             junta.ReminderSet = true;
+            //Parametro necesario para mostrar una notificacion de recordatorio en outlook
 
             junta.ReminderMinutesBeforeStart = Recordatorio;
 
             junta.Save();
             //Para guardar la cita
 
+            //Condicional que verifica que todo este en orden y manda el citatorio a todos los miembros
             if (recipient.Resolve())
             {
 
@@ -159,20 +173,25 @@ namespace SysMark
 
             if (mensaje == DialogResult.Yes)
             {
-
+                //Variables para almacenar la fecha de contacto y llamar de nuevo, formateadas a una cadena valida
+                //para SQL
                 DateTime date = FechaContacto.Value.Date;
                 string fechaContacto = date.ToString("MM/dd/yyyy");
                 DateTime date2 = dtProximaLlamada.Value;
                 string fechaNuevoContacto = date2.ToString("MM/dd/yyyy HH:mm");
 
                 // TODO IMPLEMENTAR CONEXION MAS OPTIMA
-                string ConexionBD = ConfigurationManager.AppSettings["Conexion"];
 
+                //Inicio de la conexion a la base de datos
+                string ConexionBD = ConfigurationManager.AppSettings["Conexion"];
+                
+                //Declaracion de variables desechables para la conexion de base de datos no se necesita un conexion.Close()
                 using (SqlConnection conexion = new SqlConnection(ConexionBD))
                 {
                     using (SqlCommand command = new SqlCommand("dbo.registrarMarketing", conexion))
                     {
-
+                        //Uso de stored procedure mas informacion en el diccionario de datos y
+                        //la base de datos de produccion o de prueba
                         command.CommandType = CommandType.StoredProcedure;
 
                         command.Parameters.AddWithValue("@Empresa", txtempresa.Text);
@@ -254,6 +273,8 @@ namespace SysMark
                 }
 
 
+                //Condicion para realizar la funcion de agendar un citatorio en outlook
+                //si la checkbox agendar llamada esta activa
                 if (chbAgendarLlamada.Checked == true)
                 {
 
@@ -275,6 +296,7 @@ namespace SysMark
 
         }
 
+        //Limpieza de todos los campos del formulario y reseteo a valores default
         public void Limpiar()
         {
             txtempresa.Clear();

@@ -14,7 +14,7 @@ namespace LibreriaSysMark
         public static DataConexion Conexion { get; private set; }
 
         //Clase utilizada para crear la conexion al iniciar el porgrama y
-        //ser referenciado sin tener que llmarlo cada vez
+        //ser referenciado sin tener que llmarlo cada vez una conexion sql
         public static void IniciarConexion() {
 
             ComandosSQL sql = new ComandosSQL();
@@ -22,7 +22,7 @@ namespace LibreriaSysMark
 
         }
 
-        //Cadena de conexion que tiene la referencia de la base en AppConfig
+        //Cadena de conexion que tiene la referencia hacia la base de datos utilizada en AppConfig
         public static string StringConexion(string name) {
 
             return ConfigurationManager.ConnectionStrings[name].ConnectionString;
